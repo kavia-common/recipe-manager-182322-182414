@@ -1,0 +1,22 @@
+#screen-sign-in-11-235 {
+  position: relative;
+  width: 375px;
+  height: 812px;
+  overflow: hidden;
+  background-color: var(--color-ffffff);
+  margin: 0 auto;
+}
+
+/* Ensure crisp icons (small vector shapes) */
+#screen-sign-in-11-235 img {
+  image-rendering: -webkit-optimize-contrast;
+}
+
+/* Button hover as subtle state (not defined in Figma but safe enhancement) */
+#btn-54-668:hover {
+  filter: brightness(0.98);
+}
+
+#btn-54-668:active {
+  transform: scale(0.995);
+}
